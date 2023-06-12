@@ -9,5 +9,8 @@
     <string name="txt2">DEVELOPER PAGE</string>
 
     <string name="name">BILLING CALCULATOR</string>
+    <string name="url">
+        Click <a href = "https://github.com/Izzatisy/Billing-Application"> here </a> to open GitHub.
+    </string>
 
 </resources>

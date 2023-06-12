@@ -4,9 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class AboutActivity2 extends AppCompatActivity {
 
@@ -14,6 +16,8 @@ public class AboutActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about2);
+        TextView textView = findViewById(R.id.textView);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
