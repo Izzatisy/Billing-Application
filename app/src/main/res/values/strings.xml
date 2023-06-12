@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Billing Calculator App</string>
+    <string name="copyright">Copyright &#169; 2023 Izzati </string>
+    <string name="about_text">This is a Billing Calculator App to help you calculate the electricity used.</string>
+    <string name="txt1">DEVELOPER INFORMATION</string>
+    <string name="devName">NAME: Nur Izah Izzati binti Ahmad Johari</string>
+    <string name="devMatric">MATRIC NUMBER: 2022923759</string>
+    <string name="devGroup">GROUP: CS2515A</string>
+    <string name="txt2">DEVELOPER PAGE</string>
+
+    <string name="name">BILLING CALCULATOR</string>
+
+</resources>

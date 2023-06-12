@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dip"
+    tools:context=".AboutActivity2"
+    android:background="@color/greenCair">
+
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dip"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/app_name"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dip"
+        android:text="@string/copyright" />
+
+    <TextView
+        android:id="@+id/aboutText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/copyright"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginRight="16dip"
+        android:text="@string/about_text" />
+
+    <TextView
+        android:id="@+id/devInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dip"
+        android:fontFamily="monospace"
+        android:text="@string/txt1"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/devName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/devInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dip"
+        android:text="@string/devName" />
+
+    <TextView
+        android:id="@+id/devMatric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/devName"
+        android:layout_centerHorizontal="true"
+        android:text="@string/devMatric" />
+
+    <TextView
+        android:id="@+id/devGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/devMatric"
+        android:layout_centerHorizontal="true"
+        android:text="@string/devGroup" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="184dp"
+        android:layout_height="179dp"
+        android:layout_below="@id/aboutme"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/ic_dp_adaptive_fore" />
+
+    <TextView
+        android:id="@+id/aboutme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dip"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/txt2"
+        android:textSize="30sp" />
+</RelativeLayout>
